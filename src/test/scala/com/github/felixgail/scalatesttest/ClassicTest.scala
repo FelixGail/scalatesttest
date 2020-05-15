@@ -4,7 +4,7 @@ import org.scalatest.freespec.AnyFreeSpec
 import org.scalatest.matchers.should.Matchers
 
 class ClassicTest extends AnyFreeSpec with Matchers {
-  "An com.github.felixgail.scalatesttest.Item should return" - {
+  "An Item should return" - {
     val itemA = Item(10)
 
     "0 when compared with itself" - {
